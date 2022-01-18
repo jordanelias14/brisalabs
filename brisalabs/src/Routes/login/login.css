@@ -1,0 +1,60 @@
+.user-login {
+  display: inline-block;
+  justify-content: start;
+  min-width: 50%;
+  height: 100vh;
+}
+.user-login__form-control {
+  display: flex;
+  justify-content: start;
+  width: 350px;
+  height: 55px;
+  margin-top: 20px;
+}
+/* trocar nome desse form */
+form {
+  justify-self: start;
+  padding-left: 40px;
+}
+/* trocar nome desse input */
+#user,
+#password {
+  display: flex;
+  justify-content: start;
+  width: 350px;
+  background-color: transparent;
+  border: 1px solid #7d7e80;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.img-background {
+  float: right;
+  margin-top: -100vh;
+}
+.logo-login {
+  padding: 40px;
+  margin-top: 20px;
+}
+.user-login__title {
+  width: 300px;
+  padding-left: 40px;
+  text-align: start;
+}
+.user-login__submit-btn {
+  background-color: #ffcb05;
+  color: black;
+  appearance: none;
+  border: none;
+  outline: none;
+  width: 350px;
+  height: 50px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: poppins;
+  font-weight: 700;
+}
+.user-login__submit-btn:hover {
+  transition: 0.5s;
+  background-color: #f8d95d;
+}

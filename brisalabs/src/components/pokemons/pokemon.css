@@ -1,0 +1,77 @@
+.poke-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 0;
+  margin: 0.3rem;
+  background-color: white;
+  border-radius: 1rem;
+  min-width: 160px;
+  text-align: center;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.089);
+  height: 300px;
+}
+.heart-fav {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+  margin-top: -10px;
+}
+.heart {
+  width: 26px;
+  height: 22px;
+}
+.poke-img {
+  align-self: center;
+  display: flex;
+  width: 70px;
+  min-height: 70px;
+
+  justify-content: center;
+}
+.poke-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 1rem;
+  text-align: left;
+}
+.poke-info h2 {
+  font-family: poppins;
+}
+.poke-info p {
+  text-align: start;
+  font-family: poppins;
+  color: #8e8787;
+}
+.poke-info h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: poppins;
+  background-color: #ffcb05;
+  border-radius: 8px;
+  width: 70px;
+  height: 30px;
+}
+.btn-detalhes {
+  background-color: #ffcb05;
+  color: black;
+  appearance: none;
+  border: none;
+  outline: none;
+  width: 70%;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: poppins;
+  font-weight: 700;
+}
+.btn-detalhes:hover {
+  transition: 0.5s;
+  background-color: #f8d95d;
+}
+.ref-modal {
+  width: 100%;
+  height: 100vh;
+}

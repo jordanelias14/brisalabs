@@ -1,0 +1,64 @@
+/* .form {
+  margin-left: 20%;
+  display: flex;
+  justify-content: center;
+} */
+.general-input {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  height: 55px;
+  outline: unset;
+  border: 1px solid transparent;
+  font-family: poppins;
+  font-size: 15px;
+  padding-top: 30px;
+}
+#input-Search {
+  width: 60%;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+input:focus {
+  background-color: wheat;
+}
+.void {
+  display: flex;
+  justify-content: center;
+}
+.pokes-encontrados {
+  max-width: 160px;
+  height: 300px;
+  margin-left: 20%;
+}
+.h1-Search {
+  text-align: center;
+}
+.p-Search {
+  color: #7d7e80;
+  text-align: center;
+}
+.btn-generalSearch {
+  display: flex;
+  justify-content: center;
+}
+.btn-searchFav {
+  background-color: transparent;
+  border: 1px solid #7d7e80;
+  color: #7d7e80;
+  justify-content: center;
+  justify-self: center;
+  appearance: none;
+  outline: none;
+  width: 15%;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: poppins;
+  font-weight: 700;
+}
+.btn-searchFav:hover {
+  transition: 0.5s;
+  background-color: #5f5f5f;
+  color: white;
+}

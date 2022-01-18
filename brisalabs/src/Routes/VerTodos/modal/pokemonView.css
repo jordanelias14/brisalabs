@@ -1,0 +1,95 @@
+.container-modal {
+  border: solid 1px rgb(173, 173, 173);
+  border-radius: 15px;
+  position: absolute;
+  width: 380px;
+  height: 640px;
+  margin-left: 40%;
+  margin-top: 10%;
+  background-color: white;
+  top: 0;
+  left: 0;
+}
+.close-modal {
+  padding: 15px 15px 0px 0px;
+  display: flex;
+  justify-content: end;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  float: right;
+  cursor: pointer;
+}
+.container-modal p {
+  text-align: start;
+  padding-left: 20px;
+  font-family: poppins;
+}
+
+.container-modal hr {
+  border-color: #e7dfdf;
+  width: 80%;
+  opacity: 40%;
+}
+.container-modal h1 {
+  text-align: start;
+  padding-left: 20px;
+  font-family: poppins;
+}
+.container-imgs {
+  display: flex;
+  justify-content: start;
+  padding-left: 20px;
+}
+.img-front {
+  background-color: #cccbc8;
+}
+.img-back {
+  margin-left: 10px;
+  background-color: #cccbc8;
+}
+h3 {
+  text-align: start;
+  padding-left: 20px;
+}
+.poke-info2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 1rem;
+  text-align: left;
+}
+.poke-info2 h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: poppins;
+  background-color: #ffcb05;
+  border-radius: 8px;
+  width: 70px;
+  height: 30px;
+}
+.estats p {
+  font-family: poppins;
+  color: #8e8787;
+}
+.estats ul {
+  text-align: start;
+}
+.btn-addFav {
+  background-color: #ffcb05;
+  color: black;
+  appearance: none;
+  border: none;
+  outline: none;
+  width: 70%;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: poppins;
+  font-weight: 700;
+}
+.btn-addFav:hover {
+  transition: 0.5s;
+  background-color: #f8d95d;
+}

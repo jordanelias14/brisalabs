@@ -1,0 +1,57 @@
+header {
+  background-color: #ffcb05;
+  float: left;
+  width: 100%;
+  min-height: 50px;
+  align-items: center;
+  align-self: center;
+}
+.logo {
+  width: 30%;
+  align-items: center;
+  padding: 5px;
+}
+.logoPokemon {
+  max-height: 40px;
+  padding-left: 20px;
+  align-items: center;
+}
+.btn-menu {
+  display: flex;
+  justify-content: center;
+  margin-top: -40px;
+  font-weight: 550;
+  padding: 5px;
+}
+.btn-exit {
+  align-items: center;
+  margin-top: -20px;
+  padding: 7px;
+}
+.exit {
+  display: flex;
+  font-family: poppins;
+  font-size: 20px;
+  background-color: #ffcb05;
+  border-radius: 8px;
+  border-color: black;
+  background-color: transparent;
+  width: 100px;
+  height: 30px;
+  float: right;
+  margin-top: -20px;
+  align-items: center;
+  padding: 5px;
+  align-self: center;
+  margin-right: 20px;
+  cursor: pointer;
+}
+header button:hover {
+  transition: 0.5s;
+  border-color: rgb(150, 150, 150);
+  color: rgb(150, 150, 150);
+}
+
+.exit-img {
+  margin-left: 40px;
+}
